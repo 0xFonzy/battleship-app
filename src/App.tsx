@@ -1,8 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import './App.css';
+import { useCallback, useEffect, useState } from 'react';
 import { Board, Cell, Ship } from './models/game';
 import { boardSize, ships } from './data/game';
 import GameBoard from './components/GameBoard';
+import './App.css';
 
 function App() {
   const [playerBoard, setPlayerBoard] = useState<Board>(createBoard(boardSize));
