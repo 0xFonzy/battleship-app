@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px auto;
+  border: 2px solid #333;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cell.shot {
+  background-color: #e0e0e0;
+}
+
+.cell.hit {
+  background-color: red;
+  color: white;
+}
+
+.cell.miss {
+  background-color: blue;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
